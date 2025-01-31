@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page using Bootstrap template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .col-sm-3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .btn {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar nav navbar-expand-md bg-dark">
+            <a class="nav-link navbar-brand"><img src="download.png" height="30px" width="30px">
+            </a>
+            <ul class="nav navbar-collapse collapse">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#"
+                    data-toggle="dropdown" aria-expanded="false">PROGRAMS OFFERED</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Btech</a>
+                        <a class="dropdown-item" href="#">Mtech</a>
+                        <a class="dropdown-item" href="#">Mba</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input type="text" placeholder="Search">
+                <button class="btn btn-outline-success" type="button">Search</button>
+            </form>
+        </nav>
+        <div class="container-fluid jumbotron">
+            <h2>Welcome students!!</h2>
+            <p>CMR Institute of Technology is one of the best engineering colleges, providing students with a solid foundation for their careers. Established in 2005, CMRIT is part of the MGR Educational Society, offering a variety of programs in engineering, technology, and management. The campus, sprawling over 10 acres, is equipped with state-of-the-art infrastructure, including modern labs, a vast library, and numerous amenities. The institute’s focus on research, academic excellence, and holistic student development makes it an ideal choice for aspiring engineers. CMRIT continues to grow, contributing to the academic and professional development of its students.</p>
+            <button class="btn btn-primary" type="button">Learn More</button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>ABOUT US</h3>
+                    <p>CMR Institute of Technology is one of the leading institutions, offering a wide range of undergraduate and postgraduate programs in engineering, technology, and management. Founded in 2005, it has quickly become known for its academic excellence and commitment to fostering personal and professional growth. The campus is equipped with cutting-edge infrastructure, including modern classrooms, laboratories, and libraries. Highly qualified faculty members provide students with the knowledge and skills necessary to excel in the ever-evolving world of technology. Through its robust academic framework and research-driven environment, CMRIT ensures that students are well-prepared for their careers.</p>
+                    <button class="btn btn-info" type="button">Know More</button>
+                </div>
+                <div class="col-sm-3">
+                    <h3>CSE</h3>
+                    <p>Dr. Kumbala Pradeep Reddy is a highly experienced academician with expertise in Machine Learning and Image Processing. He obtained his PhD from JNTU Hyderabad and has over 12 years of teaching experience. His research contributions include books, papers, and patents in the field of computer science. Dr. Reddy has been instrumental in organizing workshops and seminars and has guided numerous students in their academic projects. He is also an active member of various professional organizations. His work bridges the gap between academia and industry, ensuring that students receive the best educational experience possible.</p>
+                    <button class="btn btn-warning" type="button">Know More</button>
+                </div>
+                <div class="col-sm-3">
+                    <h3>CSM</h3>
+                    <p>Dr. L. Arokia Jesu Prabhu is a seasoned academician with over 13 years of research and teaching experience in Machine Learning and Cloud Computing. He holds a PhD from Anna University, Chennai, and has contributed to the field through several publications, patents, and research papers. Dr. Prabhu has guided many students in their academic pursuits and is a regular speaker at conferences and seminars. His research interests continue to focus on advanced areas of Machine Learning and Cloud Computing, ensuring that students gain knowledge in cutting-edge technologies that are shaping the future.</p>
+                    <button class="btn btn-danger" type="button">Know More</button>
+                </div>
+                <div class="col-sm-3">
+                    <h3>ECE</h3>
+                    <p>Dr. K. Niranjan Reddy is a highly respected figure in the field of Electronics and Communication Engineering. He has been serving as an Associate Professor and Head of the Department at CMR Institute of Technology since 2017. Dr. Reddy completed his PhD in VLSI from GITAM University and has over 20 years of experience in both academia and industry. He has published numerous research papers and actively participates in organizing conferences and workshops. His vast experience and contributions to the field have earned him recognition, and he continues to inspire the next generation of engineers.</p>
+                    <button class="btn btn-primary" type="button">Know More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer text-center"><p>&copy; All the rights from 2025</p></div>
+</body>
+</html>
